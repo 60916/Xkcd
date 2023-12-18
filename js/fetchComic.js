@@ -105,7 +105,7 @@ function appendDate(data) {
 
 // Funktion för att gå till den senaste comicen
 function latestComic() {
-    // Check if the current comic is already the latest
+    // Checkar om comicen är den senaste
     if (currentComicNumber === maxComic) {
         return;
     }
